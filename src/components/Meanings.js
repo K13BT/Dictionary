@@ -20,6 +20,8 @@ const Meanings = ({meanings}) => {
     setShowAll({...showAll, [index]: !showAll[index]});
   }
 
+  console.log(showAll)
+
   return (
     <div>
     {meanings.map((meaning, index) => (
